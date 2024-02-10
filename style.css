@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: black;
+    cursor: pointer;
+}
+#cursor{
+    height: 30px;
+    width: 30px;
+    background-color: red;
+    mix-blend-mode: difference;
+    border-radius: 50%;
+    position: absolute;
+    transition: all linear 0.5ms;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    background-color: yellow;
+    padding: 50px;
+}
+h1{
+    font-weight: 900;
+    color: red;
+    font-size: 150px;
+
+}
